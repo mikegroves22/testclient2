@@ -25,12 +25,8 @@ function App() {
             </nav>
           </div>
             <Routes>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/about">
-              <Login />
-            </Route>
+            <Route exact path="/">{Home}</Route>
+            <Route path="/about">{Login}</Route>
           </Routes>
           </div>
   );
