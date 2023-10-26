@@ -1,11 +1,13 @@
-
 import './App.css';
+import Login from './pages/login';
 
 function App() {
   return (
-    <div className="App">
-  My React App
-    </div>
+    <BrowserRouter basename="/app">
+    <Routes>
+      <Route path="/" /> {Login}
+    </Routes>
+  </BrowserRouter>
   );
 }
 
