@@ -2,7 +2,7 @@
   "name": "testclient2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mikegroves22.github.io/testclient2",
+  "homepage": "https://mikegroves22.github.io/testclient2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
