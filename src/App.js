@@ -16,7 +16,7 @@ function App() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                <Link to="/about">About</Link>
+                <Link to="/login">Login</Link>
                 </li>
                 <li>
                 <Link to="/contact">Contact</Link>
@@ -25,8 +25,8 @@ function App() {
             </nav>
           </div>
             <Routes>
-            <Route exact path="/">{Home}</Route>
-            <Route path="/about">{Login}</Route>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route path="/login" element={<Login />}></Route>
           </Routes>
           </div>
   );
