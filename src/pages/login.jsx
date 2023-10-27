@@ -9,7 +9,7 @@ const [passwordAuth, setpasswordAuth] = useState("");
 const auth = () =>{
 
     console.log(usernameAuth)
-Axios.post("/auth",{
+Axios.post("https://testserver1-mikegrovess22.onrender.com/auth",{
     username: usernameAuth,
     password: passwordAuth})
     .then((res) =>{
