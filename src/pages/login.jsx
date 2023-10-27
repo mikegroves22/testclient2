@@ -37,6 +37,28 @@ if (res.data.length>0)
      <br/>
      <input type="submit" id="submit" name="submit" onClick={auth}/>
     
+
+     <div>
+            <nav>
+              <ul id="navigation">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                <Link to="/login">Login</Link>
+                </li>
+                <li>
+                <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+
+
+
+
+
      
      </div>
   )
