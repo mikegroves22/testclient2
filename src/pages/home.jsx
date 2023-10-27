@@ -9,10 +9,10 @@ import { Link } from "react-router-dom";
             <nav>
               <ul id="navigation">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">Login</Link>
                 </li>
                 <li>
-                <Link to="/login">Login</Link>
+                <Link to="/testclient2/#/home">Home</Link>
                 </li>
                 <li>
                 <Link to="/contact">Contact</Link>

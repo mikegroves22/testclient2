@@ -16,7 +16,7 @@ Axios.post("https://testserver1-mikegrovess22.onrender.com/auth",{
     .then((res) =>{
 
 if (res.data.length>0)
-       window.location = "/home"
+       window.location = "/testclient2/#/home"
       else{
         console.log(res.data.message)
       }
@@ -25,7 +25,7 @@ if (res.data.length>0)
 
 
   return (
-    <div> Login Page
+    <div> Login Page 2
     <br/>
     <br/>
     <br/>
