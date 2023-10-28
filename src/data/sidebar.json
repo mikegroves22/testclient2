@@ -121,6 +121,10 @@
             {
                 "title": "Emplyees",
                 "path": "/#/employees"
+            },
+            {
+                "title": "Rates",
+                "path": "/#/rates"
             }
         ]
     },

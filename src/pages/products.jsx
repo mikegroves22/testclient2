@@ -9,7 +9,7 @@ import Sidebar from '../components/Sidebar';
     <div className="main">
         <Sidebar />
         <div className="container">
-            container
+            <h1>Products</h1>
         </div>
      </div>
   )

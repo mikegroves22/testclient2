@@ -20,15 +20,20 @@ body{
 
 
 .container{
-  flex-grow: 1;
+  /* flex-grow: 1;*/
+  border-radius: 1%;
+  margin-left: 5px;
   padding: 2em;
-  /* background-image: radial-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8)), url('../public/banner.png'); */
+  width:100%;
   background-size: cover;
   background-position: center;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: center; */
+  color:black;
+  border-style: solid;
+  border-color: black;
 }
 .title{
   font-size: 3em;
@@ -58,9 +63,14 @@ body{
 .sidebar{
   width: 260px;
   flex-shrink: 0;
-  background-color: rgba(22, 22, 22, 1);
+  /* background-color: rgba(22, 22, 22, 1); */
+  background-image: linear-gradient(rgb(103, 73, 255), rgb(8, 33, 157));
   height: 100%;
   overflow: auto;
+
+  border-style: solid;
+  border-color: black;
+  border-radius: 2%;
 }
 
 
