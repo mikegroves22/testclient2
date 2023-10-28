@@ -1,0 +1,279 @@
+[
+    {
+        "title": "Admin",
+        "icon": "bi-gear-fill",
+        "childrens": [
+            {
+                "title": "Users",
+                "icon": "bi-house-fill",
+                "path": "/#/users"
+            },
+            {
+                "title": "Pages",
+                "icon": "bi-house-fill",
+                "path": "/#/pages"
+            },
+            {
+                "title": "Sidebar",
+                "icon": "bi-house-fill",
+                "path": "/#/sidebar"
+            },
+            {
+                "title": "Sidebar Items",
+                "icon": "bi-house-fill",
+                "path": "/#/sidebaritems"
+            },
+            {
+                "title": "Tables",
+                "icon": "bi-house-fill",
+                "path": "/#/tables"
+            },
+            {
+                "title": "Contact",
+                "icon": "bi-phone-fill",
+                "childrens": [
+                    {
+                        "title": "Facebook",
+                        "icon": "bi-facebook"
+                    },
+                    {
+                        "title": "Twitter",
+                        "icon": "bi-twitter"
+                    },
+                    {
+                        "title": "Instagram",
+                        "icon": "bi-instagram"
+                    }
+                ]
+            },
+            {
+                "title": "FAQ",
+                "icon": "bi-question-circle-fill"
+            }
+        ]
+    },
+    {
+        "title": "Account",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Login",
+                "path": "/#/login"
+            },
+            {
+                "title": "Register",
+                "path": "/#/register"
+            },
+            {
+                "title": "Forgot Password",
+                "path": "/#/forgotpassword"
+            },
+            {
+                "title": "Reset Password",
+                "path": "/#/resetpassword"
+            }
+        ]
+    },
+    {
+        "title": "Busness Partners",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Suppliers",
+                "path": "/#/suppliers"
+            },
+            {
+                "title": "Customers",
+                "path": "/#/customers"
+            }
+        ]
+    },
+    {
+        "title": "Finance",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Invoices",
+                "path": "/#/invoices"
+            },
+            {
+                "title": "Nominal Codes",
+                "path": "/#/nominalcodes"
+            },
+            {
+                "title": "Price Book",
+                "path": "/#/pricebook"
+            },
+            {
+                "title": "Assets",
+                "path": "/#/Assets"
+            }
+        ]
+    },
+    {
+        "title": "Human Resources",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Agency",
+                "path": "/#/agency"
+            },
+            {
+                "title": "Emplyees",
+                "path": "/#/employees"
+            }
+        ]
+    },
+    {
+        "title": "Manufacturing",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Products",
+                "path": "/#/products"
+            },
+            {
+                "title": "Boms",
+                "path": "/boms"
+            },
+            {
+                "title": "Machines",
+                "path": "/#/machines"
+            },
+            {
+                "title": "Planning",
+                "path": "/#/planning"
+            },
+            {
+                "title": "Labels",
+                "path": "/#/labels"
+            },
+            {
+                "title": "Mps",
+                "path": "/#/mps"
+            },
+            {
+                "title": "Mrp",
+                "path": "/#/mrp"
+            },
+            {
+                "title": "Works Orders",
+                "path": "/#/worksorders"
+            },
+            {
+                "title": "Routings",
+                "path": "/#/routings"
+            }
+        ]
+    },
+    {
+        "title": "Purchasing",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Purchase Orders",
+                "path": "/#/purchaseorders"
+            }
+        ]
+    },
+    {
+        "title": "Sales",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Sales Orders",
+                "path": "/#/salesorders"
+            },
+            {
+                "title": "Returns",
+                "path": "/#/returns"
+            }
+        ]
+    },
+    {
+        "title": "Warehouse",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Stock",
+                "path": "/#/stock"
+            },
+            {
+                "title": "Transfers",
+                "path": "/#/transfers"
+            },
+            {
+                "title": "Pick List",
+                "path": "/#/picklist"
+            },
+            {
+                "title": "Locations",
+                "path": "/#/locations"
+            }
+        ]
+    },
+    {
+        "title": "Profile",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "Profile",
+                "path": "/#/profile"
+            },
+            {
+                "title": "Settings",
+                "childrens": [
+                    {
+                        "title": "Account",
+                        "path": "/#/settings/account"
+                    },
+                    {
+                        "title": "Billing",
+                        "childrens": [
+                            {
+                                "title": "Payment",
+                                "path": "/#/settings/billing/payment"
+                            },
+                            {
+                                "title": "Subscription",
+                                "path": "/#/settings/billing/subscription"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Notifications",
+                        "path": "/settings/notifications"
+                    }
+                ]
+            },
+            {
+                "title": "Logout",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "title": "Advance",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Search",
+                "path": "/search"
+            },
+            {
+                "title": "History",
+                "path": "/history"   
+            }
+        ]
+    },
+    {
+        "title": "Support",
+        "icon": "bi-question-circle-fill",
+        "path": "/support"
+    },
+    {
+        "title": "Report Bug",
+        "icon": "bi-bug",
+        "path": "/report-bug"
+    }
+]

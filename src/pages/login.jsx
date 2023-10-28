@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Axios from "axios";
-import {Link} from "react-router-dom";
+import './login.css';
 
  function Login() {
 
@@ -16,7 +16,7 @@ Axios.post("https://testserver1-mikegrovess22.onrender.com/auth",{
     .then((res) =>{
 
 if (res.data.length>0)
-       window.location = "/testclient2/#/home"
+       window.location = "/#/home"
       else{
         console.log(res.data.message)
       }
@@ -25,43 +25,26 @@ if (res.data.length>0)
 
 
   return (
-    <div> Login Page 2
-    <br/>
-    <br/>
-    <br/>
-    
-     Username<input type="text" id="username" name="username" onChange={(e) => setusernameAuth(e.target.value)}/>
-     <br/>
-     Password
-     <input type="password" id="password" name="password" onChange={(e) => setpasswordAuth(e.target.value)}/>
-     <br/>
-     <br/>
-     <input type="submit" id="submit" name="submit" onClick={auth}/>
-    
+    <div>
 
-     <div>
-            <nav>
-              <ul id="navigation">
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                <Link to="/login">Login</Link>
-                </li>
-                <li>
-                <Link to="/contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
+      <div className="loginwrapper">
+        
+        <div className="form-signin">       
+          
+          <h2 className="form-signin-heading">Please login</h2>
+        
+          <input type="text" className="form-control" name="username" placeholder="Username" autoFocus="" onChange={(e) => setusernameAuth(e.target.value)} />
+        
+          <input type="password" className="form-control" name="password" placeholder="Password" onChange={(e) => setpasswordAuth(e.target.value)}/>      
+      
+          <button className="btn btn-lg btn-primary btn-block" type="submit" onClick={auth}>Login</button>   
+      
+      </div>
 
-
-
-
-
+    </div>
 
      
-     </div>
+  </div>
   )
 }
 export default Login
