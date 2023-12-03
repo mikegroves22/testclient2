@@ -1,0 +1,219 @@
+[
+    
+    {
+        "title": "Admin",
+        "subtitle": "Users",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/users"
+    },
+    {
+        "title": "Admin",
+        "subtitle": "Pages",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/pages"
+    },
+    {
+        "title": "Admin",
+        "subtitle": "Sidebar",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/sidebar"
+    },
+    {
+        "title": "Admin",
+        "subtitle": "Sidebar Items",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/sidebaritems"
+    },
+    {
+        "title": "Admin",
+        "subtitle": "Tables",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/tables"
+    },
+    {
+        "title": "Business Partners",
+        "subtitle": "Suppliers",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/suppliers"
+    },
+    {
+        "title": "Business Partners",
+        "subtitle": "Customers",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/customers"
+    },
+    {
+        "title": "Finance",
+        "subtitle": "Invoices",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/invoices"
+    },
+    {
+        "title": "Finance",
+        "subtitle": "Nominal Codes",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/nominalcodes"
+    },
+    {
+        "title": "Finance",
+        "subtitle": "Price Book",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/pricebook"
+    },
+    {
+        "title": "Finance",
+        "subtitle": "Assets",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/assets"
+    },
+    {
+        "title": "Human Resources",
+        "subtitle": "Agency",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/agency"
+    },
+    {
+        "title": "Human Resources",
+        "subtitle": "Employees",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/employees"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Products",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/products"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Boms",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/boms"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Machines",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/machines"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Planning",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/planning"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Labels",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/labels"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "MPS",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/mps"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "MRP",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/mrp"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Works Order",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/worksorders"
+    },
+    {
+        "title": "Manufacturing",
+        "subtitle": "Routings",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/routings"
+    },
+    {
+        "title": "Purchasing",
+        "subtitle": "Purchase Orders",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/purchaseorders"
+    },
+    {
+        "title": "Sales",
+        "subtitle": "Sales Orders",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/salesorders"
+    },
+    {
+        "title": "Sales",
+        "subtitle": "Returns",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/Returns"
+    },
+    {
+        "title": "Warehouse",
+        "subtitle": "Users",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/users"
+    },
+    {
+        "title": "Warehouse",
+        "subtitle": "Stock",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/stock"
+    },
+    {
+        "title": "Warehouse",
+        "subtitle": "Transfers",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/transfers"
+    },
+    {
+        "title": "Warehouse",
+        "subtitle": "Pick List",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/picklist"
+    },
+    {
+        "title": "Warehouse",
+        "subtitle": "Locations",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/locations"
+    },
+    {
+        "title": "Warehouse",
+        "subtitle": "Quaratined",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/quaratined"
+    },
+    {
+        "title": "Training",
+        "subtitle": "Documents",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/documents"
+    },
+    {
+        "title": "Training",
+        "subtitle": "Records",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/records"
+    },
+    {
+        "title": "Training",
+        "subtitle": "What training is need",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/pages"
+    },
+    {
+        "title": "Training",
+        "subtitle": "Employees Vs Jobs",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/pages"
+    },
+    {
+        "title": "Training",
+        "subtitle": "Job Vs Documents",
+        "icon": "bi-question-circle-fill",
+        "path": "/#/pages"
+    }
+]

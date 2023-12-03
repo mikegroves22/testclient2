@@ -9,16 +9,20 @@ const [passwordAuth, setpasswordAuth] = useState("");
 
 const auth = () =>{
 
-    console.log(usernameAuth)
 Axios.post("https://testserver1-mikegrovess22.onrender.com/auth",{
     username: usernameAuth,
     password: passwordAuth})
     .then((res) =>{
 
-if (res.data.length>0)
+if (res.data.length>0){
+  sessionStorage.setItem("username", res.data[0].username )
        window.location = "/#/home"
+
+      }
       else{
         console.log(res.data.message)
+        
+
       }
     })
 }

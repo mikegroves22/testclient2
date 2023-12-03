@@ -5,6 +5,8 @@ import { Route, Routes} from "react-router-dom";
 import Home from "./pages/home"
 import Login from "./pages/login"
 import Products from './pages/products';
+import Tables from './pages/tables';
+import Users from './pages/users';
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
             <Route exact path="/" element={<Login />}></Route>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/products" element={<Products />}></Route>
+            <Route path="/tables" element={<Tables />}></Route>
+            <Route path="/users" element={<Users />}></Route>
           </Routes>
           </div>
   );

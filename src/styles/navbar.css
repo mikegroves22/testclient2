@@ -1,0 +1,213 @@
+/* ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #333;    
+  }
+  
+ 
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4caf65;
+  }
+
+  ul li ul li{
+
+    display:none;
+  }
+
+  ul li:hover ul li {
+   
+    display:block;
+    
+  } */
+
+
+ /*----------------------------------------------------------*/
+
+ /* ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      /* overflow: hidden;  */
+
+      .aaa{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        /* overflow: hidden; */
+      
+       }
+      
+       /* ul:hover{
+         z-index: 50;
+       } */
+      
+       .aaa:hover{
+        z-index: 50;
+      }
+      
+       /* ul li {
+        color: white;
+        float: left;
+        width: 130px;
+        height: 40px;
+        background-color: rgb(12, 8, 233);
+        line-height: 40px;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+       } */
+      
+      .bbb{
+      
+        color: white;
+        float: left;
+        width: 130px;
+        height: 40px;
+        background-color: rgb(12, 8, 233);
+        line-height: 40px;
+        text-align: center;
+        font-size: 15px;
+        cursor: pointer;
+        
+      }
+      
+      
+       /* ul li:hover{
+      
+        z-index: 50;
+       } */
+      
+       .bbb:hover{
+      
+        z-index: 50;
+       }
+      
+       /* ul li a {
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         display: block;
+        
+       } */
+      
+       .bbb a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: block;
+       
+      }
+      
+       /* ul li a:hover {
+         background-color: rgb(13, 0, 128);
+         z-index: 50;
+       } */
+      
+       .bbb a:hover {
+        background-color: rgb(13, 0, 128);
+        z-index: 50;
+      }
+      
+      .bbb a.eee:hover{
+        background-color: rgb(13, 0, 128);
+        z-index: 50;
+      
+      }
+      
+      
+      
+       /* ul li ul li {
+         display: none;
+         
+       } */
+      
+      .ccc {
+        display: none;
+        
+      }
+      
+       /* ul li ul li:hover{
+        z-index: 50;
+       } */
+      
+       .ccc:hover{
+        z-index: 50;
+       }
+      
+       ul li:hover ul li {
+        z-index: 50 !important;
+         display:block;
+      
+         
+         /* position: absolute; */
+         
+       }
+      
+      .shape{
+        display: flex;
+        background-color: rgb(12, 8, 233);
+        justify-content: space-between;
+      
+      }
+      
+      .shape:hover{
+        z-index: 99 !important;
+      }
+      
+      .shapenav{
+      
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .logoffbtn{
+      
+       background-color: rgb(199, 255, 255);
+       padding: 5px;
+       border: none;
+       border-radius: 5px;
+       margin-right: 20px;
+      
+      }
+      
+      .logoffbtn:hover{
+      
+        cursor: pointer;
+      }
+      
+      .navright{
+      
+        float: right;
+        height: 20px;
+        align-items: center;
+        
+      }
+      
+      
+      .diagram-component {
+        width: 400px;
+        height: 400px;
+        border: solid 1px black;
+        background-color: white;
+      }
+      
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');

@@ -1,0 +1,13 @@
+.buttons{
+    background-color: rgb(0, 101, 253);
+    display:list-item;
+    width:180px;
+    height: 45px;
+    border-radius: 4px;
+    margin: 10px 2px;
+    color: white;
+    cursor: pointer;  
+    font-size: 12px; 
+    font-weight: bold;
+    
+  }

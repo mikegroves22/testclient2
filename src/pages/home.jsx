@@ -7,7 +7,14 @@ import Sidebar from '../components/Sidebar';
     <div className="main">
     <Sidebar />
     <div className="container">
-        container
+        <h1>Home</h1>
+        
+        <div className="subcontainer">
+          subcontainer
+        </div>
+
+
+
     </div>
  </div>
   )
