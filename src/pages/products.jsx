@@ -3,7 +3,7 @@ import React from 'react';
 //import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import '../styles/containers.css';
-import Htmltable from '../components/Htmltable';
+//import Htmltable from '../components/Htmltable';
 // PRODUCTS PAGE
 
  function Products() {
@@ -35,7 +35,7 @@ import Htmltable from '../components/Htmltable';
       <div className="leftpanel"></div>
       <div className="middlepanel">
 
-<Htmltable />
+{/* <Htmltable /> */}
 
       </div>
       <div className="rightpanel"></div>
